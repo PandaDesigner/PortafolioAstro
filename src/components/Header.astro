@@ -1,0 +1,36 @@
+---
+import ButonHeader from './ButonHeader.astro';
+import ButonHeaderContact from './ButonHeaderContact.astro'
+---
+<header class=" w-full border-b border-b-[#1E2D3D] flex flex-row pl-4">
+    <nav class=" flex gap-4">
+        <h1 class=" align-self-center ">prfmaestre-Portfolio</h1>
+        <div>
+            <ButonHeader>_hello</ButonHeader>
+            <ButonHeader>_about-me</ButonHeader>
+            <ButonHeader>_projects</ButonHeader>
+        </div>
+    </nav>
+    <div class="btn-final">
+
+        <ButonHeaderContact class="btn-contact">_contact-me</ButonHeaderContact>
+    </div>
+
+
+</header>
+
+<style>
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+ .btn-contact{
+    border: 8 8 8 8;
+ }
+</style>

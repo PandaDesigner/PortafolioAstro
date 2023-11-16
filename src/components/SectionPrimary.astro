@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import LocalImagenTesting from '../assets/images/Snake-Game.png'
+---
+
+
+<div class="w-full flex-auto flex flex-col gap-12">
+    <div class="flex flex-col gap-3">
+        <p class="text-slate-200 text-lg">Hi all. I am</p>
+        <h1 class="text-slate-200 text-6xl font-light font-['Fira Code']"> Pedro Fernandez</h1>
+        <h2 class="text-indigo-600 text-3xl"> > Front-end developer</h2>
+    </div>
+    <div class="flex flex-col gap-2">
+        <p class="text-slate-500 text-base"> // complete the game to continue</p>
+        <p class="text-slate-500 text-base"> // you can also see it on my Github page</p>
+        <p class="text-base font-medium"><span class="text-indigo-600">const </span> <span class="text-emerald-400">githubLink</span> = <span class="text-rose-400">“https://github.com/PandaDesigner”</span></p>
+    </div>
+</div>
+<div class="w-full min-h-full flex-auto  flex items-center justify-center">
+    <Image width='510' height="50" src={'/src/assets/images/Snake-Game.png'} alt="snake"/>
+</div>
